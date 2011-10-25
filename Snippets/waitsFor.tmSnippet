@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>runs(function() {
-  $0
-});</string>
+	<string>waitsFor(function() {
+	$3;
+}, "${1:message if func didnt complete}" ${2:,10000});</string>
 	<key>name</key>
-	<string>runs</string>
+	<string>waitsFor</string>
 	<key>scope</key>
 	<string>source.js.jasmine</string>
 	<key>tabTrigger</key>
-	<string>r</string>
+	<string>wf</string>
 	<key>uuid</key>
-	<string>F035C4FB-441F-42F6-BEA1-EE6C89323139</string>
+	<string>925DAEE4-D689-42B3-893D-15D51D6B6D4D</string>
 </dict>
 </plist>
